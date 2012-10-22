@@ -6,5 +6,4 @@ t0 = Time.now
 
 %x[git add .]
 %x[git commit -m 'new snap']
-
-puts %x[git status]
+%x[git push origin master]
